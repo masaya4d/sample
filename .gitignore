@@ -1,0 +1,7 @@
+# git ignore file
+Debug/
+Release/
+/ipch/
+*.sdf
+*.opensdf
+*.suo
