@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	if (glfwInit() == GL_FALSE)
 	{
-		MessageBox(nullptr, TEXT("GLFW ‚ª‰Šú‰»‚Å‚«‚Ü‚¹‚ñ"), TEXT("4D Sensor"), MB_OK);
+		MessageBox(nullptr, TEXT("GLFW ‚ª‰Šú‰»‚É¸”s‚µ‚Ü‚µ‚½"), TEXT("4D Sensor"), MB_OK);
 		return EXIT_FAILURE;
 	}
 	atexit(glfwTerminate);
